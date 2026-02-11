@@ -2,7 +2,7 @@
     "type": "micro",
     "wake_word": "Hey Bentley",
     "author": "Kory Gilbert",
-    "website": "https://balsutalka.lv/",
+    "website": "https://github.com/kk112277/hey_bentley/blob/main/",
     "model": "hey_bentley.tflite",
     "trained_languages": ["en"],
     "version": 2,
