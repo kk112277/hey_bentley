@@ -1,0 +1,10 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Bentley",
+  "model": "hey_bentley.tflite",
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 10
+  }
+}
