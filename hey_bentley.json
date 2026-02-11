@@ -2,7 +2,6 @@
     "type": "micro",
     "wake_word": "Hey Bentley",
     "author": "Kory Gilbert",
-    "website": "https://github.com/kk112277/hey_bentley/blob/main/",
     "model": "https://github.com/kk112277/hey_bentley/raw/refs/heads/main/hey_bentley.tflite",
     "trained_languages": ["en"],
     "version": 2,
