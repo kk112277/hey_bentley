@@ -1,7 +1,8 @@
 {
   "type": "micro",
   "wake_word": "Hey Bentley",
-  "model": "hey_bentley.tflite",
+  "website": "https://github.com/kk112277/hey_bentley/blob/main",
+  "model": "./hey_bentley.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.85,
