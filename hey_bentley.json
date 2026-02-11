@@ -1,11 +1,16 @@
 {
-  "type": "micro",
-  "wake_word": "Hey Bentley",
-  "website": "https://github.com/kk112277/hey_bentley/blob/main",
-  "model": "./hey_bentley.tflite",
-  "version": 2,
-  "micro": {
-    "probability_cutoff": 0.85,
-    "sliding_window_size": 10
-  }
+    "type": "micro",
+    "wake_word": "Hey Bentley",
+    "author": "Kory Gilbert",
+    "website": "https://balsutalka.lv/",
+    "model": "hey_bentley.tflite",
+    "trained_languages": ["en"],
+    "version": 2,
+    "micro": {
+        "probability_cutoff": 0.97,
+        "feature_step_size": 10,
+        "sliding_window_size": 5,
+        "tensor_arena_size": 30000,
+        "minimum_esphome_version": "2024.7.0"
+    }
 }
